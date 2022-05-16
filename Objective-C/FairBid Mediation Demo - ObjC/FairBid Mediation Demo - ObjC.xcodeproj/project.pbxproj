@@ -9,12 +9,35 @@
 /* Begin PBXBuildFile section */
 		3415D2562832F10E00C9709B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415D2552832F10E00C9709B /* AppDelegate.m */; };
 		3415D2592832F10E00C9709B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415D2582832F10E00C9709B /* SceneDelegate.m */; };
-		3415D25C2832F10E00C9709B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415D25B2832F10E00C9709B /* ViewController.m */; };
 		3415D25F2832F10E00C9709B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3415D25D2832F10E00C9709B /* Main.storyboard */; };
 		3415D2612832F10F00C9709B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3415D2602832F10F00C9709B /* Assets.xcassets */; };
 		3415D2642832F10F00C9709B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3415D2622832F10F00C9709B /* LaunchScreen.storyboard */; };
 		3415D2672832F10F00C9709B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415D2662832F10F00C9709B /* main.m */; };
+		3415D2702832F43800C9709B /* InterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415D26F2832F43800C9709B /* InterstitialViewController.m */; };
+		3415D2732832F62600C9709B /* RewardedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415D2722832F62600C9709B /* RewardedViewController.m */; };
+		3415D2762832F74E00C9709B /* FairBidMediation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3415D2752832F74E00C9709B /* FairBidMediation.storyboard */; };
+		3415D2792832F86500C9709B /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415D2782832F86500C9709B /* BannerViewController.m */; };
+		3415D27E2832FA1E00C9709B /* HyBid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3415D27A2832FA0200C9709B /* HyBid.xcframework */; };
+		3415D27F2832FA1E00C9709B /* HyBid.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3415D27A2832FA0200C9709B /* HyBid.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3415D2812832FA2000C9709B /* OMSDK_Pubnativenet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3415D27C2832FA0A00C9709B /* OMSDK_Pubnativenet.xcframework */; };
+		3415D2822832FA2000C9709B /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3415D27C2832FA0A00C9709B /* OMSDK_Pubnativenet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6CB62B340917D3B11D6187BB /* Pods_FairBid_Mediation_Demo___ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B7E108E0A2ED6D7CDE692 /* Pods_FairBid_Mediation_Demo___ObjC.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3415D2802832FA1E00C9709B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3415D27F2832FA1E00C9709B /* HyBid.xcframework in Embed Frameworks */,
+				3415D2822832FA2000C9709B /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3415D2512832F10E00C9709B /* FairBid Mediation Demo - ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FairBid Mediation Demo - ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,13 +45,23 @@
 		3415D2552832F10E00C9709B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3415D2572832F10E00C9709B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3415D2582832F10E00C9709B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3415D25A2832F10E00C9709B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3415D25B2832F10E00C9709B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3415D25E2832F10E00C9709B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3415D2602832F10F00C9709B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3415D2632832F10F00C9709B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3415D2652832F10F00C9709B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3415D2662832F10F00C9709B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3415D26E2832F43800C9709B /* InterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterstitialViewController.h; sourceTree = "<group>"; };
+		3415D26F2832F43800C9709B /* InterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialViewController.m; sourceTree = "<group>"; };
+		3415D2712832F62600C9709B /* RewardedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardedViewController.h; sourceTree = "<group>"; };
+		3415D2722832F62600C9709B /* RewardedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardedViewController.m; sourceTree = "<group>"; };
+		3415D2752832F74E00C9709B /* FairBidMediation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FairBidMediation.storyboard; sourceTree = "<group>"; };
+		3415D2772832F86500C9709B /* BannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		3415D2782832F86500C9709B /* BannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		3415D27A2832FA0200C9709B /* HyBid.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = HyBid.xcframework; sourceTree = "<group>"; };
+		3415D27C2832FA0A00C9709B /* OMSDK_Pubnativenet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OMSDK_Pubnativenet.xcframework; sourceTree = "<group>"; };
+		BF54C57E1DB2C5C6B781FF20 /* Pods-FairBid Mediation Demo - ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairBid Mediation Demo - ObjC.release.xcconfig"; path = "Target Support Files/Pods-FairBid Mediation Demo - ObjC/Pods-FairBid Mediation Demo - ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		C59B7E108E0A2ED6D7CDE692 /* Pods_FairBid_Mediation_Demo___ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_FairBid_Mediation_Demo___ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8D0BC094C58612D17328358 /* Pods-FairBid Mediation Demo - ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairBid Mediation Demo - ObjC.debug.xcconfig"; path = "Target Support Files/Pods-FairBid Mediation Demo - ObjC/Pods-FairBid Mediation Demo - ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +69,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3415D27E2832FA1E00C9709B /* HyBid.xcframework in Frameworks */,
+				3415D2812832FA2000C9709B /* OMSDK_Pubnativenet.xcframework in Frameworks */,
+				6CB62B340917D3B11D6187BB /* Pods_FairBid_Mediation_Demo___ObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0754AE505CBDD6672F206B66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8D0BC094C58612D17328358 /* Pods-FairBid Mediation Demo - ObjC.debug.xcconfig */,
+				BF54C57E1DB2C5C6B781FF20 /* Pods-FairBid Mediation Demo - ObjC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3415D2482832F10E00C9709B = {
 			isa = PBXGroup;
 			children = (
 				3415D2532832F10E00C9709B /* FairBid Mediation Demo - ObjC */,
 				3415D2522832F10E00C9709B /* Products */,
+				0754AE505CBDD6672F206B66 /* Pods */,
+				653F08716C704A9D47BA5D92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +108,50 @@
 		3415D2532832F10E00C9709B /* FairBid Mediation Demo - ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				3415D27A2832FA0200C9709B /* HyBid.xcframework */,
+				3415D27C2832FA0A00C9709B /* OMSDK_Pubnativenet.xcframework */,
 				3415D2542832F10E00C9709B /* AppDelegate.h */,
 				3415D2552832F10E00C9709B /* AppDelegate.m */,
 				3415D2572832F10E00C9709B /* SceneDelegate.h */,
 				3415D2582832F10E00C9709B /* SceneDelegate.m */,
-				3415D25A2832F10E00C9709B /* ViewController.h */,
-				3415D25B2832F10E00C9709B /* ViewController.m */,
-				3415D25D2832F10E00C9709B /* Main.storyboard */,
+				3415D2742832F6D400C9709B /* Examples */,
+				3415D26D2832F3D700C9709B /* Storyboards */,
 				3415D2602832F10F00C9709B /* Assets.xcassets */,
 				3415D2622832F10F00C9709B /* LaunchScreen.storyboard */,
 				3415D2652832F10F00C9709B /* Info.plist */,
 				3415D2662832F10F00C9709B /* main.m */,
 			);
 			path = "FairBid Mediation Demo - ObjC";
+			sourceTree = "<group>";
+		};
+		3415D26D2832F3D700C9709B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3415D25D2832F10E00C9709B /* Main.storyboard */,
+				3415D2752832F74E00C9709B /* FairBidMediation.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		3415D2742832F6D400C9709B /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				3415D2772832F86500C9709B /* BannerViewController.h */,
+				3415D2782832F86500C9709B /* BannerViewController.m */,
+				3415D26E2832F43800C9709B /* InterstitialViewController.h */,
+				3415D26F2832F43800C9709B /* InterstitialViewController.m */,
+				3415D2712832F62600C9709B /* RewardedViewController.h */,
+				3415D2722832F62600C9709B /* RewardedViewController.m */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		653F08716C704A9D47BA5D92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C59B7E108E0A2ED6D7CDE692 /* Pods_FairBid_Mediation_Demo___ObjC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3415D26A2832F10F00C9709B /* Build configuration list for PBXNativeTarget "FairBid Mediation Demo - ObjC" */;
 			buildPhases = (
+				0D1C853B07922346ACD42C0A /* [CP] Check Pods Manifest.lock */,
 				3415D24D2832F10E00C9709B /* Sources */,
 				3415D24E2832F10E00C9709B /* Frameworks */,
 				3415D24F2832F10E00C9709B /* Resources */,
+				BE4C0AB344A50E80FD0D5AE1 /* [CP] Embed Pods Frameworks */,
+				3415D2802832FA1E00C9709B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3415D2642832F10F00C9709B /* LaunchScreen.storyboard in Resources */,
+				3415D2762832F74E00C9709B /* FairBidMediation.storyboard in Resources */,
 				3415D2612832F10F00C9709B /* Assets.xcassets in Resources */,
 				3415D25F2832F10E00C9709B /* Main.storyboard in Resources */,
 			);
@@ -141,14 +223,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D1C853B07922346ACD42C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FairBid Mediation Demo - ObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4C0AB344A50E80FD0D5AE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FairBid Mediation Demo - ObjC/Pods-FairBid Mediation Demo - ObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FairBid Mediation Demo - ObjC/Pods-FairBid Mediation Demo - ObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FairBid Mediation Demo - ObjC/Pods-FairBid Mediation Demo - ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3415D24D2832F10E00C9709B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3415D25C2832F10E00C9709B /* ViewController.m in Sources */,
 				3415D2562832F10E00C9709B /* AppDelegate.m in Sources */,
+				3415D2732832F62600C9709B /* RewardedViewController.m in Sources */,
+				3415D2792832F86500C9709B /* BannerViewController.m in Sources */,
 				3415D2672832F10F00C9709B /* main.m in Sources */,
+				3415D2702832F43800C9709B /* InterstitialViewController.m in Sources */,
 				3415D2592832F10E00C9709B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +415,7 @@
 		};
 		3415D26B2832F10F00C9709B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8D0BC094C58612D17328358 /* Pods-FairBid Mediation Demo - ObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,9 +424,13 @@
 				DEVELOPMENT_TEAM = TL55SBB4FM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "FairBid Mediation Demo - ObjC/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MRAID Protocol requirement";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,6 +447,7 @@
 		};
 		3415D26C2832F10F00C9709B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF54C57E1DB2C5C6B781FF20 /* Pods-FairBid Mediation Demo - ObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,9 +456,13 @@
 				DEVELOPMENT_TEAM = TL55SBB4FM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "FairBid Mediation Demo - ObjC/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "MRAID Protocol requirement";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "MRAID Protocol requirement";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

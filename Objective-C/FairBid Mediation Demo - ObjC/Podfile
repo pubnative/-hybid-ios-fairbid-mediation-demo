@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FairBid Mediation Demo - ObjC' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FairBid Mediation Demo - ObjC
+  pod 'FairBidSDK', '3.26.0'
+end
