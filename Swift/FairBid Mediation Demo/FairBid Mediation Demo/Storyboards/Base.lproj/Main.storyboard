@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZUN-Os-qg1">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Integration Demo-->
+        <scene sceneID="0IK-5Q-tnU">
+            <objects>
+                <viewController id="ffz-7x-bV9" customClass="ViewController" customModule="GAD_Mediation_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rJf-Me-Jmo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMt-cY-n0i" userLabel="FairBid Mediation Button">
+                                <rect key="frame" x="16" y="125" width="382" height="33"/>
+                                <color key="backgroundColor" red="0.85098618270000004" green="0.85097014900000001" blue="0.85098105670000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <accessibility key="accessibilityConfiguration" identifier="fairBidMediationButton" label="FairBid Mediation Button">
+                                    <bool key="isElement" value="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Tvf-cj-dzJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="FairBid Mediation">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.44761112330000002" green="0.097065538169999993" blue="0.48637124900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="Tvf-cj-dzJ"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="glz-5b-TeB" kind="show" id="OCq-Dj-Akj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Integration" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ur3-0k-ANI" userLabel="Integration">
+                                <rect key="frame" x="16" y="96" width="67" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="integrationLabel" label="Integration Label"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="MZE-6l-dKc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="MZE-6l-dKc"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="l9k-1A-rfE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ur3-0k-ANI" firstAttribute="leading" secondItem="l9k-1A-rfE" secondAttribute="leading" constant="16" id="1yZ-fJ-CBz"/>
+                            <constraint firstItem="Ur3-0k-ANI" firstAttribute="top" secondItem="l9k-1A-rfE" secondAttribute="top" constant="8" id="B7O-d0-zeF"/>
+                            <constraint firstItem="SMt-cY-n0i" firstAttribute="leading" secondItem="l9k-1A-rfE" secondAttribute="leading" constant="16" id="I9h-oS-Czf"/>
+                            <constraint firstItem="l9k-1A-rfE" firstAttribute="trailing" secondItem="SMt-cY-n0i" secondAttribute="trailing" constant="16" id="Nih-Pw-wD7"/>
+                            <constraint firstItem="SMt-cY-n0i" firstAttribute="top" secondItem="Ur3-0k-ANI" secondAttribute="bottom" constant="8" id="r1U-sC-iW6"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Integration Demo" id="rql-jB-KQv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yCK-tL-kxz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="850.76923076923072" y="78.909952606635073"/>
+        </scene>
+        <!--FairBidMediation-->
+        <scene sceneID="Jp2-LQ-rAe">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FairBidMediation" id="glz-5b-TeB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Tzi-QW-zrM"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KvQ-aO-jaS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1456" y="78"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3fP-Yw-tV9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZUN-Os-qg1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SdN-6H-x5b">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ffz-7x-bV9" kind="relationship" relationship="rootViewController" id="C77-Ck-CzH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9N0-35-W1s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78.461538461538453" y="78.909952606635073"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

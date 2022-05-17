@@ -45,6 +45,7 @@
 }
  
 - (void)interstitialIsUnavailable:(NSString *)placementId {
+    NSLog(@"interstitialIsUnavailable");
     [self.activityIndicator stopAnimating];
 }
 

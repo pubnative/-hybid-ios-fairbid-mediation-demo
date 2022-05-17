@@ -123,7 +123,7 @@
                             <constraint firstItem="blG-2Y-paq" firstAttribute="leading" secondItem="WW6-mT-eeY" secondAttribute="leading" constant="16" id="sAw-tE-hZK"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="GAD (AdMob) Mediation" id="iUF-6O-fI8">
+                    <navigationItem key="navigationItem" title="FairBid Mediation" id="iUF-6O-fI8">
                         <barButtonItem key="backBarButtonItem" title="Back" id="c6G-JN-k4c"/>
                     </navigationItem>
                 </viewController>

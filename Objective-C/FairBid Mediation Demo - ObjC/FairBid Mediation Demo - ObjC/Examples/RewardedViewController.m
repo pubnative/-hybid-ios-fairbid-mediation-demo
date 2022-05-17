@@ -45,6 +45,7 @@
 }
  
 - (void)rewardedIsUnavailable:(NSString *)placementId {
+    NSLog(@"rewardedIsUnavailable");
     [self.activityIndicator stopAnimating];
 }
  

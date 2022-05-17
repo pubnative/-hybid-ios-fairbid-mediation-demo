@@ -69,7 +69,7 @@
 }
 
 - (void)banner:(FYBBannerAdView *)banner didResizeToFrame:(CGRect)frame {
-// Called after banner changes its size to desired frame
+
 }
 
 - (void)bannerWillRequest:(NSString *)placementId {
