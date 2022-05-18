@@ -9,11 +9,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let appToken = "543027b8e954474cbcd9a98481622a3b"
     let appStoreID = "1530210244"
-    let fairBidAppID = "109613"
+    let fairBidAppID = "134134"
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Step 3: Setup & Initialize HyBid SDK
-                HyBid.initWithAppToken(appToken, completion: nil)
+                //HyBid.initWithAppToken(appToken, completion: nil)
         // Step 4: Setup & Initialize FairBid SDK
                 let options = FYBStartOptions()
                 options.logLevel = .verbose

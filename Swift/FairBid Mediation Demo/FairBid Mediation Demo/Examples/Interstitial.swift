@@ -10,7 +10,7 @@ class Interstitial: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var showAdButton: UIButton!
     
-    let adUnitID = "197405"
+    let adUnitID = "704852"
 
     override func viewDidLoad() {
         super.viewDidLoad()

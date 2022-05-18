@@ -10,7 +10,7 @@ class Rewarded: UIViewController {
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var showAdButton: UIButton!
     
-    let adUnitID = "197406"
+    let adUnitID = "704851"
     
     override func viewDidLoad() {
         super.viewDidLoad()
