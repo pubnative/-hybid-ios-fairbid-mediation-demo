@@ -1,5 +1,5 @@
 import UIKit
-// Step 1: Import HyBid into your class
+// Step 1: Import HyBid into your class (Only required if anything in Step 4 below is set)
 import HyBid
 // Step 2: Import FairBid SDK into your class
 import FairBidSDK
@@ -11,36 +11,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let fairBidAppID = "134134"
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Step 3: Setup & Initialize HyBid SDK
-                //HyBid.initWithAppToken(appToken, completion: nil)
-        // Step 4: Setup & Initialize FairBid SDK
+
+        // Step 3: Setup & Initialize FairBid SDK
                 let options = FYBStartOptions()
                 options.logLevel = .verbose
                 options.autoRequestingEnabled = false
                 FairBid.start(withAppId: fairBidAppID, options: options)
-        // Step 5: Set COPPA (Optional)
+        // Step 4: Set COPPA (Optional)
                 HyBid.setCoppa(false)
-        // Step 6: Set Test Mode (Optional)
+        // Step 5: Set Test Mode (Optional)
                 HyBid.setTestMode(true)
-        // Step 7: Set Location Tracking (Optional)
+        // Step 6: Set Location Tracking (Optional)
                 HyBid.setLocationTracking(true)
-        // Step 8: Set HTML Interstitial skipOffset (Optional)
+        // Step 7: Set HTML Interstitial skipOffset (Optional)
                 HyBid.setHTMLInterstitialSkipOffset(2)
-        // Step 9: Set Video Interstitial skipOffset (Optional)
+        // Step 8: Set Video Interstitial skipOffset (Optional)
                 HyBid.setVideoInterstitialSkipOffset(5)
-        // Step 10: Set Custom Click Behavior (Optional)
+        // Step 9: Set Custom Click Behavior (Optional)
                 HyBid.setInterstitialActionBehaviour(HB_CREATIVE)
-        // Step 11: Set Targeting (Optional)
+        // Step 10: Set Targeting (Optional)
                 let targeting = HyBidTargetingModel()
                 targeting.age = 28
                 targeting.interests = ["music"]
                 targeting.gender = "f"     // "f" for female, "m" for male
                 HyBid.setTargeting(targeting)
-        // Step 12: Set SKOverlay for Interstitial (Optional)
+        // Step 11: Set SKOverlay for Interstitial (Optional)
                 HyBid.setInterstitialSKOverlay(true)
-        // Step 13: Set SKOverlay for Rewarded (Optional)
+        // Step 12: Set SKOverlay for Rewarded (Optional)
                 HyBid.setRewardedSKOverlay(true)
-        // Step 14: Set HyBid log level (Optional)
+        // Step 13: Set HyBid log level (Optional)
                 HyBidLogger.setLogLevel(HyBidLogLevelDebug)
         return true
     }

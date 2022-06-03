@@ -5,7 +5,7 @@
 #import "RewardedViewController.h"
 #import <FairBidSDK/FairBidSDK.h>
 
-#define REWARDED_AD_UNIT_ID @"197406"
+#define REWARDED_AD_UNIT_ID @"704851"
 
 @interface RewardedViewController () <FYBRewardedDelegate>
 

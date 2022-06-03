@@ -5,7 +5,7 @@
 #import "InterstitialViewController.h"
 #import <FairBidSDK/FairBidSDK.h>
 
-#define INTERSTITIAL_AD_UNIT_ID @"197405"
+#define INTERSTITIAL_AD_UNIT_ID @"704852"
 
 @interface InterstitialViewController () <FYBInterstitialDelegate>
 

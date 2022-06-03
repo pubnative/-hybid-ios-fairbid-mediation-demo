@@ -1,10 +1,9 @@
 #import "AppDelegate.h"
-// Step 1: Import HyBid into your class
+// Step 1: Import HyBid into your class (Only required if anything in Step 4 below is set)
 #import <HyBid/HyBid.h>
 
 #define APP_TOKEN @"543027b8e954474cbcd9a98481622a3b"
-#define APP_STORE_ID @"1530210244"
-#define FAIRBID_APP_ID @"109613"
+#define FAIRBID_APP_ID @"134134"
 
 // Step 2: Import FairBid SDK into your class
 #import <FairBidSDK/FairBidSDK.h>
@@ -17,36 +16,34 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Step 3: Setup & Initialize HyBid SDK
-        [HyBid initWithAppToken:APP_TOKEN completion:nil];
-    // Step 4: Setup & Initialize FairBid SDK
+    // Step 3: Setup & Initialize FairBid SDK
         FYBStartOptions *options = [[FYBStartOptions alloc] init];
         options.logLevel = FYBLoggingLevelVerbose;
         options.autoRequestingEnabled = NO;
         [FairBid startWithAppId:FAIRBID_APP_ID options:options];
-    // Step 5: Set COPPA (Optional)
+    // Step 4: Set COPPA (Optional)
         [HyBid setCoppa:NO];
-    // Step 6: Set Test Mode (Optional)
+    // Step 5: Set Test Mode (Optional)
         [HyBid setTestMode:YES];
-    // Step 7: Set Location Tracking (Optional)
+    // Step 6: Set Location Tracking (Optional)
         [HyBid setLocationTracking:YES];
-    // Step 8: Set HTML Interstitial skipOffset (Optional)
+    // Step 7: Set HTML Interstitial skipOffset (Optional)
         [HyBid setHTMLInterstitialSkipOffset:2];
-    // Step 9: Set Video Interstitial skipOffset (Optional)
+    // Step 8: Set Video Interstitial skipOffset (Optional)
         [HyBid setVideoInterstitialSkipOffset:5];
-    // Step 10: Set Custom Click Behavior (Optional)
+    // Step 9: Set Custom Click Behavior (Optional)
         [HyBid setInterstitialActionBehaviour:HB_CREATIVE];
-    // Step 11: Set Targeting (Optional)
+    // Step 10: Set Targeting (Optional)
         HyBidTargetingModel *targeting = [[HyBidTargetingModel alloc] init];
         targeting.age = [NSNumber numberWithInt:28];
         targeting.interests = @[@"music"];
         targeting.gender = @"f";     // "f" for female, "m" for male
         [HyBid setTargeting:targeting];
-    // Step 12: Set SKOverlay for Interstitial (Optional)
+    // Step 11: Set SKOverlay for Interstitial (Optional)
         [HyBid setInterstitialSKOverlay:YES];
-    // Step 13: Set SKOverlay for Rewarded (Optional)
+    // Step 12: Set SKOverlay for Rewarded (Optional)
         [HyBid setRewardedSKOverlay:YES];
-    // Step 14: Set HyBid log level (Optional)
+    // Step 13: Set HyBid log level (Optional)
         [HyBidLogger setLogLevel:HyBidLogLevelDebug];
     return YES;
 }

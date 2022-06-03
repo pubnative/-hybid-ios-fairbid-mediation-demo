@@ -5,7 +5,7 @@
 #import "BannerViewController.h"
 #import <FairBidSDK/FairBidSDK.h>
 
-#define BANNER_AD_UNIT_ID @"197407"
+#define BANNER_AD_UNIT_ID @"704853"
 
 @interface BannerViewController () <FYBBannerDelegate>
 
