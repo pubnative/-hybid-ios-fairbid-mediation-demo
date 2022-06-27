@@ -129,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e4A-YY-xWn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4000" y="-375"/>
+            <point key="canvasLocation" x="-3910" y="-385"/>
         </scene>
         <!--FairBid Mediation Interstitial-->
         <scene sceneID="RFd-Ui-YDM">

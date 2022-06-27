@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  FairBid Mediation Demo
-//
-//  Created by Can Soykarafakili on 17.05.22.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {

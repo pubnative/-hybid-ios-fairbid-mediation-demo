@@ -17,8 +17,10 @@
 		3415D2732832F62600C9709B /* RewardedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415D2722832F62600C9709B /* RewardedViewController.m */; };
 		3415D2762832F74E00C9709B /* FairBidMediation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3415D2752832F74E00C9709B /* FairBidMediation.storyboard */; };
 		3415D2792832F86500C9709B /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3415D2782832F86500C9709B /* BannerViewController.m */; };
-		345D8E1F284A86FE0071A935 /* HyBid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D8E1E284A86FE0071A935 /* HyBid.xcframework */; };
-		345D8E21284A87060071A935 /* OMSDK_Pubnativenet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D8E20284A87060071A935 /* OMSDK_Pubnativenet.xcframework */; };
+		349207B1286A23D80046D030 /* HyBid.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D8E1E284A86FE0071A935 /* HyBid.xcframework */; };
+		349207B2286A23D80046D030 /* HyBid.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 345D8E1E284A86FE0071A935 /* HyBid.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		349207B3286A23DA0046D030 /* OMSDK_Pubnativenet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345D8E20284A87060071A935 /* OMSDK_Pubnativenet.xcframework */; };
+		349207B4286A23DA0046D030 /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 345D8E20284A87060071A935 /* OMSDK_Pubnativenet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6CB62B340917D3B11D6187BB /* Pods_FairBid_Mediation_Demo___ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C59B7E108E0A2ED6D7CDE692 /* Pods_FairBid_Mediation_Demo___ObjC.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				349207B2286A23D80046D030 /* HyBid.xcframework in Embed Frameworks */,
+				349207B4286A23DA0046D030 /* OMSDK_Pubnativenet.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,8 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				345D8E1F284A86FE0071A935 /* HyBid.xcframework in Frameworks */,
-				345D8E21284A87060071A935 /* OMSDK_Pubnativenet.xcframework in Frameworks */,
+				349207B1286A23D80046D030 /* HyBid.xcframework in Frameworks */,
+				349207B3286A23DA0046D030 /* OMSDK_Pubnativenet.xcframework in Frameworks */,
 				6CB62B340917D3B11D6187BB /* Pods_FairBid_Mediation_Demo___ObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
