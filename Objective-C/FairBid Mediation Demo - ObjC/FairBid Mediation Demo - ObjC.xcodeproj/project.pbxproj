@@ -108,7 +108,7 @@
 		3415D2532832F10E00C9709B /* FairBid Mediation Demo - ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				34962A6B28340A69002AA7AB /* HyBid-2.16.0 */,
+				34962A6B28340A69002AA7AB /* HyBid-2.16.0-beta1 */,
 				3415D2542832F10E00C9709B /* AppDelegate.h */,
 				3415D2552832F10E00C9709B /* AppDelegate.m */,
 				3415D2572832F10E00C9709B /* SceneDelegate.h */,
@@ -145,13 +145,13 @@
 			path = Examples;
 			sourceTree = "<group>";
 		};
-		34962A6B28340A69002AA7AB /* HyBid-2.16.0 */ = {
+		34962A6B28340A69002AA7AB /* HyBid-2.16.0-beta1 */ = {
 			isa = PBXGroup;
 			children = (
 				3477C34828CA1C9F008EA916 /* HyBid.xcframework */,
 				3477C34A28CA1CA6008EA916 /* OMSDK_Pubnativenet.xcframework */,
 			);
-			path = "HyBid-2.16.0";
+			path = "HyBid-2.16.0-beta1";
 			sourceTree = "<group>";
 		};
 		653F08716C704A9D47BA5D92 /* Frameworks */ = {
