@@ -101,7 +101,7 @@
 		34962A472833FF6C002AA7AB /* FairBid Mediation Demo */ = {
 			isa = PBXGroup;
 			children = (
-				34962A6A28340A23002AA7AB /* HyBid-2.16.0 */,
+				34962A6A28340A23002AA7AB /* HyBid-2.16.0-beta1 */,
 				34962A482833FF6C002AA7AB /* AppDelegate.swift */,
 				34962A4A2833FF6C002AA7AB /* SceneDelegate.swift */,
 				34962A692834089C002AA7AB /* Storyboards */,
@@ -132,13 +132,13 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		34962A6A28340A23002AA7AB /* HyBid-2.16.0 */ = {
+		34962A6A28340A23002AA7AB /* HyBid-2.16.0-beta1 */ = {
 			isa = PBXGroup;
 			children = (
 				3477C34028CA1B1E008EA916 /* HyBid.xcframework */,
 				3477C34228CA1B29008EA916 /* OMSDK_Pubnativenet.xcframework */,
 			);
-			path = "HyBid-2.16.0";
+			path = "HyBid-2.16.0-beta1";
 			sourceTree = "<group>";
 		};
 		40FC56113666F1D1D367DBE5 /* Frameworks */ = {
